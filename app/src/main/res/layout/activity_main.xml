@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="com.liuyun.day30lianxi.MainActivity">
+    <Button
+        android:id="@+id/button"
+        android:text="@string/hello"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/image"
+        android:gravity="top"
+        android:layout_below="@+id/button"
+        android:background="@drawable/yun"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+</RelativeLayout>
