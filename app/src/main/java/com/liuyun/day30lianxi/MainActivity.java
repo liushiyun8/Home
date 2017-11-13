@@ -11,20 +11,17 @@ import com.bumptech.glide.Glide;
 
 public class MainActivity extends AppCompatActivity {
 
-    private EditText image;
+    private EditText ima;
     private Button button;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        image = findViewById(R.id.image);
-        button =findViewById(R.id.button);
-        button.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                button.setText(getResources().getString(R.string.hello));
-            }
-        });
+        ima = (EditText) findViewById(R.id.image);
+        button = (Button) findViewById(R.id.button);
     }
+    
+    button.setonClickListner(new ClickListner{
+    })
 }
