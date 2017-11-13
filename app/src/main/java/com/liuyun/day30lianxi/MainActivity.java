@@ -19,4 +19,7 @@ public class MainActivity extends AppCompatActivity {
         image = (EditText) findViewById(R.id.image);
 
     }
+    
+    button.setonClickListner(new ClickListner{
+    })
 }
