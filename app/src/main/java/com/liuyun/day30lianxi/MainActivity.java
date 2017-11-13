@@ -22,6 +22,7 @@ public class MainActivity extends AppCompatActivity {
         ima = (EditText) findViewById(R.id.image);
         button = (Button) findViewById(R.id.button);
         //这个是在服务器上改变的文件
+        //这是本地的文件
     }
     
 
