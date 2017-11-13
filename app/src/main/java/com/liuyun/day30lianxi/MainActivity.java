@@ -23,7 +23,7 @@ public class MainActivity extends AppCompatActivity {
         button = (Button) findViewById(R.id.button);
         //这个是在服务器上改变的文件。
         //呵呵呵。
-        //这是本地的文件
+        //本地
     }
     
 
