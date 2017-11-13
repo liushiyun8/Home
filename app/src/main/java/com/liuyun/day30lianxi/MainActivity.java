@@ -19,11 +19,11 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        ima = findViewById(R.id.image);
-        button = findViewById(R.id.button);
+        ima = (EditText) findViewById(R.id.image);
+        button = (Button) findViewById(R.id.button);
         //这个是服务器
         //呵呵呵。
-        //本地的本地班底的算法十多个挺好
+        //本地的服务区
     }
     
 
