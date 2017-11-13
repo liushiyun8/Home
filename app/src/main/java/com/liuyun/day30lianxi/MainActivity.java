@@ -11,14 +11,14 @@ import com.bumptech.glide.Glide;
 
 public class MainActivity extends AppCompatActivity {
 
-    private EditText image;
+    private EditText ima;
     private Button button;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        image = (EditText) findViewById(R.id.image);
+        ima = (EditText) findViewById(R.id.image);
         button = (Button) findViewById(R.id.button);
     }
     
