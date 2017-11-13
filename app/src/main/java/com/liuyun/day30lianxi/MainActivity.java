@@ -18,10 +18,13 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        image = (EditText) findViewById(R.id.image);
-        button = (Button) findViewById(R.id.button);
+        image = findViewById(R.id.image);
+        button =findViewById(R.id.button);
+        button.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                button.setText(getResources().getString(R.string.hello));
+            }
+        });
     }
-    
-    button.setonClickListner(new ClickListner{
-    })
 }
