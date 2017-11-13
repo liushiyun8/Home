@@ -22,6 +22,5 @@ public class MainActivity extends AppCompatActivity {
         button = (Button) findViewById(R.id.button);
     }
     
-    button.setonClickListner(new ClickListner{
-    })
+
 }
