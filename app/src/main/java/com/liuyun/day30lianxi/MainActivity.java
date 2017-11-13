@@ -21,4 +21,7 @@ public class MainActivity extends AppCompatActivity {
         image = (EditText) findViewById(R.id.image);
         button = (Button) findViewById(R.id.button);
     }
+    
+    button.setonClickListner(new ClickListner{
+    })
 }
