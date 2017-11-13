@@ -23,7 +23,6 @@ public class MainActivity extends AppCompatActivity {
         button = (Button) findViewById(R.id.button);
         //这个是服务器
         //呵呵呵。
-        //本地的服务区
     }
     
 
