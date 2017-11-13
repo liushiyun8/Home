@@ -22,7 +22,6 @@ public class MainActivity extends AppCompatActivity {
         ima = (EditText) findViewById(R.id.image);
         button = (Button) findViewById(R.id.button);
         //这个是服务器
-        //呵呵呵。
     }
     
 
